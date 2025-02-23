@@ -23,7 +23,7 @@ function Footer() {
           className="text-xl duration-500 hover:scale-[98%] hover:opacity-70 active:scale-[95%] active:opacity-50 dark:text-neutral-100"
         >
           <h1 className={`${unbounded.className} font-semibold`}>
-            ContentTime
+            Uptime
           </h1>
         </Link>
         <p className="mt-4 opacity-80 dark:text-neutral-200">
