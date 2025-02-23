@@ -4,16 +4,6 @@ export const links = [
     href: '/',
     iconName: 'lucide:house',
   },
-  {
-    title: 'Правила',
-    href: 'https://wiki.content-time.pro/server/rules',
-    iconName: 'lucide:book',
-  },
-  {
-    title: 'Вики',
-    href: 'https://wiki.content-time.pro',
-    iconName: 'lucide:folders',
-  },
 ]
 export const socialLinks = [
   {

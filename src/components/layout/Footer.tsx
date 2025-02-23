@@ -8,16 +8,6 @@ import BlockLinkL from '@/features/UI/block/BlockLinkL'
 
 const links = [
   {
-    title: 'Условия использования',
-    href: 'https://wiki.content-time.pro/server/legal/terms-of-service',
-    iconName: 'lucide:book-open',
-  },
-  {
-    title: 'Политика конфиденциальности',
-    href: 'https://wiki.content-time.pro/server/legal/privacy-policy',
-    iconName: 'lucide:shield-check',
-  },
-  {
     title: 'Поддержка',
     href: '/discord',
     iconName: 'lucide:headset',
@@ -57,13 +47,6 @@ function Footer() {
           >
             @kryptonfox
           </Link>
-        </p>
-        <p className="my-4 opacity-60 dark:text-neutral-200">
-          Not an official Minecraft service. Not approved by or associated with
-          Mojang or MICR
-        </p>
-        <p className="my-4 opacity-60 dark:text-neutral-200">
-          Обработка платежей: Косов Артём Валерьевич, ИНН: 773125930321
         </p>
         <div className="flex flex-wrap gap-4 *:w-full *:lg:w-fit">
           {links.map((link) => (
