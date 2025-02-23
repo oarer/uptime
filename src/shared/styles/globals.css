@@ -1,0 +1,45 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  font-synthesis:none;
+  scroll-padding-top:100px;
+  scrollbar-width:none
+}
+
+::-webkit-scrollbar{
+  display:none;
+  -ms-overflow-style:none;
+  scrollbar-width:none
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
